@@ -1,0 +1,31 @@
+/* Home awal */
+
+body {
+	text-align: justify;
+}
+.custom-navbar {
+	background-color: rgba(0,0,0,0);
+    /* Transparent = rgba(0,0,0,0) / Translucent = (0,0,0,0.5)  */
+    height: 50px;
+    border-bottom: 0px;
+    transition: background-color .5s ease 0s;
+    color: white;
+}
+
+.navbar-collapse {
+	margin-left: 20%;
+}
+
+.desc-awal {
+	margin-top: 30%;
+}
+
+.nav-item {
+	padding: 0 5px;
+}
+
+.home-awal {
+	background-image : url('../img/black.jpg');
+	background-size: cover;
+	height: 720px;
+}
