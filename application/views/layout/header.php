@@ -1,31 +1,17 @@
-<nav class="navbar navbar-expand-lg navbar-dark fixed-top custom-navbar">
-  <a class="navbar-brand" href="#">
-    <img src="<?php echo base_url('assets/img/');?>rajakawat_orange_edit.png" width="150" alt="">
-  </a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
 
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-        <a class="nav-link" href="#">HOME <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">SERVICE</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">WORKFLOW</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">CONTACT US</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">FAQ</a>
-      </li>
-	</ul>
-	<span class="navbar-text">
-		<a href="#">sosmed</a>
-	</span>
-  </div>
-</nav>
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no, shrink-to-fit=no">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+	<meta name="HandheldFriendly" content="true">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+		<link rel="stylesheet" href="<?php echo base_url('assets/css/');?>style.css">
+		<script src="https://kit.fontawesome.com/5316cdeb11.js" crossorigin="anonymous"></script>
+
+    <title>Raja Kawat</title>
+  </head>

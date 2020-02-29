@@ -1,25 +1,16 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-		<link rel="stylesheet" href="<?php echo base_url('assets/css/');?>style.css">
-
-    <title>Raja Kawat</title>
-  </head>
+<?php $this->load->view('layout/header');?>
   <body>
-  	<?php $this->load->view('layout/header');?>
+  	<?php $this->load->view('layout/navbar');?>
     
+		<!-- Section awal -->
 		<section class="home-awal" id="satu">
 			<div class="container">
 				<div class="row">
-					<div class="col-md-6 text-white desc-awal">
+					<div class="col-md-6 col-12 text-white desc-awal">
 						<h3>LOREM IPSUM</h3>
-						<hr style="border: 1.5px solid white;width: 40px;margin: 0px;">
+						<hr class="hr-desc-awal">
 						<br>
 						<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Libero suscipit corrupti hic, et reiciendis deserunt optio quod fugiat harum. Sit et minus ullam minima id repellat officia perferendis explicabo quibusdam.</p>
 					</div>
@@ -27,10 +18,71 @@
 			</div>
 		</section>
 
+		<!-- Section dua -->
+		<section class="home-dua" id="dua">
+		<div class="container">
+				<h3>LOREM <span style="color:orangered"> IPSUM <span></h3>
+				<hr style="border: 1.5px solid orangered;width: 40px;margin: 0px;">
+			<div class="row">
+				<div class="col-md-6">
+					
+					<p>
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum minus quis aut accusamus? Aut reiciendis omnis non eaque ipsam ad. Earum quod aspernatur culpa laudantium. Quo possimus molestias eaque mollitia?
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium quo error atque veritatis nesciunt ipsam aspernatur sit. Dolorum eaque perferendis neque? Nihil doloribus alias consectetur sed tempora dolore magnam! Modi.
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim nobis, doloremque autem expedita asperiores doloribus. Ab explicabo, totam quasi nemo veniam, accusamus at eum, sed reiciendis sint dolore id maiores.
+					</p>
+				</div>
+				<div class="col-md-6">
+					<p>
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum minus quis aut accusamus? Aut reiciendis omnis non eaque ipsam ad. Earum quod aspernatur culpa laudantium. Quo possimus molestias eaque mollitia?
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium quo error atque veritatis nesciunt ipsam aspernatur sit. Dolorum eaque perferendis neque? Nihil doloribus alias consectetur sed tempora dolore magnam! Modi.
+					Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto nemo porro maxime et, dolor maiores a quis consectetur laudantium delectus nesciunt officia ut. Nisi enim quaerat incidunt necessitatibus distinctio odit.
+
+					</p>
+				</div>
+			</div>
+		</div>
+		</section>
+
+		<section class="home-tiga" id="tiga">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4 justify-content-center icons-tiga text-white">
+						<div class="row">
+							<div class="col-md-12 text-center justify-content-center icons-tiga">
+								<i class="fas fa-flag"></i>
+							</div>
+							<div class="col-md-12 text-center justify-content-center icons-tiga">
+								<h4>LOREM IPSUM</h4>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 justify-content-center icons-tiga text-white">
+						<div class="row">
+							<div class="col-md-12 text-center justify-content-center icons-tiga">
+							<i class="fas fa-tools"></i>
+							</div>
+							<div class="col-md-12 text-center justify-content-center icons-tiga">
+								<h4>LOREM IPSUM</h4>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 justify-content-center icons-tiga text-white">
+						<div class="row">
+							<div class="col-md-12 text-center justify-content-center icons-tiga">
+								<i class="fas fa-paint-roller"></i>
+							</div>
+							<div class="col-md-12 text-center justify-content-center icons-tiga">
+								<h4>LOREM IPSUM</h4>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <?php $this->load->view('layout/footer');?>
   </body>
 </html>

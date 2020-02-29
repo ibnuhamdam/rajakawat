@@ -12,8 +12,20 @@ body {
     color: white;
 }
 
+.navbar-brand {
+	padding-left: 20px;
+} 
+
 .navbar-collapse {
-	margin-left: 20%;
+	margin-left: 19%;
+}
+
+.navbar-text i {
+	padding: 0px 10px;
+} 
+
+.navbar-text {
+	margin-right: 20px;
 }
 
 .desc-awal {
@@ -27,5 +39,64 @@ body {
 .home-awal {
 	background-image : url('../img/black.jpg');
 	background-size: cover;
-	height: 720px;
+	height: 665px;
+}
+
+.hr-desc-awal {
+	border: 1.5px solid white;
+	width: 40px;
+	margin: 0px;
+}
+
+.home-dua {
+	background-color: rgb(245, 245, 245);
+	padding: 80px 10px;
+}
+
+.home-tiga {
+	background:  url('../img/black-2.jpg') fixed;
+	padding: 50px 10px;
+}
+
+.home-dua p {
+	margin-top: 40px;
+}
+
+.opaque {
+	background-color: rgb(0, 0, 0);
+	height: 50px;
+	color: white;
+}
+
+.icons-tiga {
+	margin: 20px 0px;
+	display: flex;
+} 
+
+.icons-tiga i {
+	font-size: 60px;
+	color: white;
+}
+
+/* For responsive mobile */
+@media (max-width: 960px) {
+	.custom-navbar {
+		background-color: rgb(0, 0, 0);
+		height: 50px;
+		color: white;
+	}
+	.navbar-collapse {
+		margin-left: -10px;
+		background-color: rgb(0, 0, 0,1);
+		width: 100%;
+	}
+	.desc-awal {
+		margin-top: 60%;
+		text-align: center;
+	}
+	.hr-desc-awal {
+		border: 1.5px solid white;
+		width: 30%;
+		margin: auto;
+	}
 }
