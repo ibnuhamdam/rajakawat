@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg navbar-dark fixed-top custom-navbar">
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top <?php if (($this->uri->segment(2) != 'contact') and ($this->uri->segment(2) != 'faq') ){ echo "custom-navbar"; }else{echo "dark-navbar";};?>">
   <a class="navbar-brand" href="#">
     <img src="<?php echo base_url('assets/img/');?>rajakawat_orange_edit.png" width="180" alt="">
   </a>
@@ -17,13 +17,13 @@
         <a class="nav-link" href="<?php echo site_url('home/service');?>">SERVICE</a>
       </li>
       <li class="nav-item <?php if ($this->uri->segment(2) === 'workflow'){ echo "active"; };?>">
-        <a class="nav-link" href="#">WORKFLOW</a>
+        <a class="nav-link" href="<?php echo site_url('home/workflow');?>">WORKFLOW</a>
       </li>
       <li class="nav-item <?php if ($this->uri->segment(2) === 'contact'){ echo "active"; };?>">
-        <a class="nav-link" href="#">CONTACT US</a>
+        <a class="nav-link" href="<?php echo site_url('home/contact');?>">CONTACT US</a>
       </li>
       <li class="nav-item <?php if ($this->uri->segment(2) === 'faq'){ echo "active"; };?>">
-        <a class="nav-link" href="#">FAQ</a>
+        <a class="nav-link" href="<?php echo site_url('home/faq');?>">FAQ</a>
       </li>
 	</ul>
 	<span class="navbar-text">

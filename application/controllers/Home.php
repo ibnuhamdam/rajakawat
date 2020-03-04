@@ -27,4 +27,19 @@ class Home extends CI_Controller {
 	{
 		$this->load->view('service');
 	}
+
+	public function workflow()
+	{
+		$this->load->view('workflow');
+	}
+
+	public function contact()
+	{
+		$this->load->view('contact');
+	}
+
+	public function faq()
+	{
+		$this->load->view('faq');
+	}
 }

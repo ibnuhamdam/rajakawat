@@ -11,10 +11,21 @@
 } 
 body {
 	text-align: justify;
-	font-family: helveticaLight;
+	font-family: myriad, sans-serif; 
+	font-weight: 400;
 }
 .custom-navbar {
 	background-color: rgba(0,0,0,0);
+    /* Transparent = rgba(0,0,0,0) / Translucent = (0,0,0,0.5)  */
+    height: 50px;
+    border-bottom: 0px;
+	transition: background-color .5s ease 0s;
+	transition: height .5s ease 0s;
+    color: white;
+}
+
+.dark-navbar {
+	background-color: rgb(0, 0, 0);
     /* Transparent = rgba(0,0,0,0) / Translucent = (0,0,0,0.5)  */
     height: 50px;
     border-bottom: 0px;
@@ -54,7 +65,7 @@ body {
 }
 
 .home-awal h3 , .home-dua h3, .home-empat h3, .home-lima h3 {
-	font-family: helveticaMedium;
+	font-family: myriad-pro-condensed, sans-serif; 
 }
 
 .hr-desc-awal {

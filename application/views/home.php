@@ -114,7 +114,7 @@
 
 				<div class="row">
 					<div class="col-md-12 justify-content-center button-service">
-						<button class="btn btn-sm">VIEW ALL SERVICES</button>
+						<a href="<?php echo site_url('home/service');?>"><button class="btn btn-sm">VIEW ALL SERVICES</button></a>
 					</div>
 				</div>
 			</div>

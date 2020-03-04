@@ -1,0 +1,87 @@
+.work-awal{
+	background: url('../img/WELDING_PROCESS/WELDINGPROCESS3.jpg');
+	background-size: cover;
+	height: 665px;
+}
+.hr-work-awal {
+	border: 1.5px solid white;
+	width: 50px;
+	margin: 0 90%;
+	margin-bottom: 20px;
+}
+.work-2 {
+	background-color: white;
+	padding: 80px 15px;
+}
+
+.content .row {
+	margin: 80px 0;
+}
+
+.work-2 .content {
+	font-size: 14px;
+	padding: 40px 15px;
+}
+
+.work-2 .content .icons {
+	color: #db7b00;
+	font-size: 24px;
+	padding-left: 10px;
+}
+
+.work-2 .content .icons i {
+	margin-right: 10px;
+}
+
+/* CONTACT */
+.contact-satu {
+	padding: 120px 10px;
+	background-color: rgb(241, 241, 241);
+}
+
+.contact-satu .profile {
+	margin: 30px 50px;
+}
+
+.contact-satu .profile .cp {
+	margin-top: 50px;
+	font-size: 15px;
+}
+
+.contact-satu .profile .cp .item {
+	margin-top: 10px;
+}
+
+.contact-satu .comment .col {
+	padding: 20px 5px;
+	padding-bottom: 0;
+}
+
+.contact-satu .comment .area {
+	padding: 10px 5px;
+}
+
+.contact-satu .comment input, .contact-satu .comment textarea {
+	border-radius: 0;
+	padding: 23px 30px;
+	border: none;
+	background-color: white;
+}
+
+/* FAQ */
+.faq-satu {
+	padding: 120px 10px;
+	background-color: rgb(241, 241, 241);
+}
+
+.faq-satu .judul {
+	margin-bottom: 30px;
+}
+
+.faq-satu .pertanyaan {
+	margin-top: 50px;
+}
+
+.faq-satu .pertanyaan p {
+	font-size: 15px;
+}

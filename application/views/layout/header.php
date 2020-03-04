@@ -13,6 +13,8 @@
 	<link href="https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap" rel="stylesheet"> 
 	<link rel="stylesheet" href="<?php echo base_url('assets/css/');?>style.css">
 	<link rel="stylesheet" href="<?php echo base_url('assets/css/');?>service.css">
+	<link rel="stylesheet" href="<?php echo base_url('assets/css/');?>work-contact.css">
+	<link rel="stylesheet" href="https://use.typekit.net/jxr0zlp.css">
 	<script src="https://kit.fontawesome.com/5316cdeb11.js" crossorigin="anonymous"></script>
 
     <title>Raja Kawat</title>
