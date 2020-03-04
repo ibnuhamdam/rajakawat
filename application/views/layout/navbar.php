@@ -8,19 +8,21 @@
 
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-        <a class="nav-link" href="#">HOME <span class="sr-only">(current)</span></a>
+		
+      <li  class="nav-item <?php if ($this->uri->segment(2) === 'index'){ echo "active"; };?>">
+				
+        <a class="nav-link" href="<?php echo site_url('home/index');?>">HOME <span class="sr-only">(current)</span></a>
       </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">SERVICE</a>
+      <li class="nav-item  <?php if ($this->uri->segment(2) === 'service'){ echo "active"; };?>">
+        <a class="nav-link" href="<?php echo site_url('home/service');?>">SERVICE</a>
       </li>
-      <li class="nav-item">
+      <li class="nav-item <?php if ($this->uri->segment(2) === 'workflow'){ echo "active"; };?>">
         <a class="nav-link" href="#">WORKFLOW</a>
       </li>
-      <li class="nav-item">
+      <li class="nav-item <?php if ($this->uri->segment(2) === 'contact'){ echo "active"; };?>">
         <a class="nav-link" href="#">CONTACT US</a>
       </li>
-      <li class="nav-item">
+      <li class="nav-item <?php if ($this->uri->segment(2) === 'faq'){ echo "active"; };?>">
         <a class="nav-link" href="#">FAQ</a>
       </li>
 	</ul>

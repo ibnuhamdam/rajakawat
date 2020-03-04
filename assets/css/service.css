@@ -1,0 +1,111 @@
+/* Services */
+@font-face {
+	font-family: 'helveticaLight';
+	src: url('../font/HelveticaNeueLight.ttf');
+  }
+
+@font-face {
+	font-family: 'helveticaMedium';
+	src: url('../font/HelveticaNeueMedium.ttf');
+} 
+.service-awal {
+	background: linear-gradient(to right, rgba(30, 30, 30, 0.605), rgba(30, 30, 30, 0.605)),  url('../img/BUILDING/BUILDING.jpg');
+	background-size: cover;
+	background-size: cover;
+	/* filter: sepia(70%) brightness(55%) saturate(99%) contrast(150%); */
+	height: 665px;
+}
+
+.service-dua {
+	background-color: rgb(245, 245, 245);
+	padding: 80px 10px;
+}
+
+.service , .service-3 , .service-2 {
+	height: 1000px;
+}
+
+.service .items {
+	background: linear-gradient(to right, rgba(255, 128, 25, 0.231), rgba(255, 128, 25,  0.231)),  url('../img/WELDING_PROCESS/WELDINGPROCESS7.jpg');
+	background-size: cover;
+	padding: 25% 15px;
+	width: auto;
+	height: 100%;
+	max-height: 24% !important;
+	margin: 4px 6px;
+	max-width: 100%;
+	font-family: 'helveticaMedium';
+}
+.service-2 .items {
+	background: linear-gradient(to right, rgba(255, 128, 25, 0.231), rgba(255, 128, 25,  0.231)),  url('../img/WELDING_PROCESS/WELDINGPROCESS6.jpg');
+	background-size: cover;
+	padding: 25% 15px;
+	width: auto;
+	height: 100%;
+	max-height: 24% !important;
+	margin: 4px 6px;
+	max-width: 100%;
+	font-family: 'helveticaMedium';
+}
+
+.service-2 .item {
+	background: linear-gradient(to right, rgba(255, 128, 25, 0.231), rgba(255, 128, 25,  0.231)),  url('../img/BUILDING/BUILDING7.jpg');
+	background-size: cover;
+	padding: 60% 15px;
+	width: auto;
+	height: 100%;
+	max-height: 49% !important;
+	margin: 4px 6px;
+	max-width: 100%;
+	font-family: 'helveticaMedium';
+}
+.service-3 .items {
+	background: linear-gradient(to right, rgba(255, 128, 25, 0.231), rgba(255, 128, 25,  0.231)),  url('../img/WELDING_PROCESS/WELDINGPROCESS5.jpg');
+	background-size: cover;
+	padding: 25% 15px;
+	width: auto;
+	height: 100%;
+	max-height: 24% !important;
+	margin: 4px 6px;
+	max-width: 100%;
+	font-family: 'helveticaMedium';
+}
+
+.service-3 .item {
+	background: linear-gradient(to right, rgba(255, 128, 25, 0.231), rgba(255, 128, 25,  0.231)),  url('../img/BUILDING/BUILDING.jpg');
+	background-size: cover;
+	padding: 60% 15px;
+	width: auto;
+	height: 100%;
+	max-height: 49% !important;
+	margin: 4px 6px;
+	max-width: 100%;
+	font-family: 'helveticaMedium';
+}
+
+.service-3 .box {
+	font-size: 13px;
+	background-color: white;
+	border: 1px solid #db7b00;
+	padding: 25px 40px;
+	width: auto;
+	height: 100%;
+	max-height: 24% !important;
+	margin: 4px 6px;
+	max-width: 100%;
+}
+
+.service-3 .box h2 {
+	font-size: 20px;
+	color: #db7b00;
+	font-weight: bold;
+	margin-bottom: 20px;
+	font-family: 'helveticaMedium';
+}
+
+.box .btn {
+	background-color: #db7b00;
+	border-radius: 0;
+	color: white;
+	padding: 5px 10px;
+}

@@ -1,14 +1,25 @@
 /* Home awal */
 
+@font-face {
+	font-family: 'helveticaLight';
+	src: url('../font/HelveticaNeueLight.ttf');
+  }
+
+@font-face {
+	font-family: 'helveticaMedium';
+	src: url('../font/HelveticaNeueMedium.ttf');
+} 
 body {
 	text-align: justify;
+	font-family: helveticaLight;
 }
 .custom-navbar {
 	background-color: rgba(0,0,0,0);
     /* Transparent = rgba(0,0,0,0) / Translucent = (0,0,0,0.5)  */
     height: 50px;
     border-bottom: 0px;
-    transition: background-color .5s ease 0s;
+	transition: background-color .5s ease 0s;
+	transition: height .5s ease 0s;
     color: white;
 }
 
@@ -37,9 +48,13 @@ body {
 }
 
 .home-awal {
-	background-image : url('../img/black.jpg');
+	background-image : url('../img/COVER_HOME.jpg');
 	background-size: cover;
 	height: 665px;
+}
+
+.home-awal h3 , .home-dua h3, .home-empat h3, .home-lima h3 {
+	font-family: helveticaMedium;
 }
 
 .hr-desc-awal {
@@ -53,18 +68,25 @@ body {
 	padding: 80px 10px;
 }
 
-.home-tiga {
-	background:  url('../img/black-2.jpg') fixed;
-	padding: 50px 10px;
-}
-
 .home-dua p {
 	margin-top: 40px;
 }
 
+.home-tiga {
+	background: linear-gradient(to right, rgba(255, 128, 25, 0.6), rgba(255, 128, 25,  0.6)),  url('../img/WELDING_PROCESS/WELDINGPROCESS6.jpg') fixed;
+	background-size: cover;
+	padding: 50px 10px;
+}
+
+.home-empat {
+	background-color: rgb(245, 245, 245);
+	padding: 80px 10px;
+}
+
 .opaque {
+	transition: height .5s ease 0s;
 	background-color: rgb(0, 0, 0);
-	height: 50px;
+	height: 80px;
 	color: white;
 }
 
@@ -76,6 +98,181 @@ body {
 .icons-tiga i {
 	font-size: 60px;
 	color: white;
+}
+
+.gallery {
+	margin-top: 40px;
+}
+
+.gallery-2 {
+	margin-top: 12px;
+}
+
+.gallery .items, .gallery-2 .items {
+	padding: 10px 15px ;
+	height: 260px;
+	max-width: 32% !important;
+	margin: 0px 6px;
+	background: linear-gradient(to right, rgba(153, 69, 0, 0.3), rgba(153, 69, 0, 0.3)),  url('../img/WELDING_PROCESS/WELDINGPROCESS6.jpg');
+	background-size: cover;
+}
+.button-service {
+	margin-top: 20px;
+	display: flex;
+} 
+
+.button-service .btn {
+	padding: 8px 20px !important;
+	background-color: #db7b00;
+	border-color: #db7b00;
+	color: white;
+	border-radius: 0 !important;
+} 
+
+.home-lima {
+	background-color: rgb(223, 223, 223);
+	padding: 80px 10px;
+}
+
+.btn-icon-lima {
+	margin-top: 20px;
+	padding: 10px 20px !important;
+	background-color: rgb(223, 223, 223);
+	border: 2px solid #db7b00;
+	color: #db7b00;
+	border-radius: 0 !important;
+	font-size: 17px;
+}
+
+.btn-icon-lima:hover {
+	background-color: rgb(223, 223, 223);
+	border: 2px solid #a15b00;
+	color: #a15b00;
+	border-radius: 0 !important;
+	font-size: 18px;
+	transition: font-size .2s ease 0s;;
+}
+
+.home-lima i {
+	margin: 0 5px;
+	font-size: 20px;
+}
+
+.home-lima .atas img {
+	width: 100%;
+	height: 255px;
+	margin-bottom: 10px;
+}
+
+.home-lima .bawah , .home-lima .atas {
+	padding-right: 0 !important;
+}
+
+.home-lima img {
+	width: 100%;
+	height: 150px;
+	margin-bottom: 10px;
+}
+
+.home-lima .desc {
+	padding-left: 50px;
+}
+
+.btn-icon-lima {
+	margin-right: 0 !important;
+}
+
+.text-orange {
+	margin-top: 40px;
+	margin-bottom: 40px;
+	color: #db7b00;	
+}
+
+.btn-working {
+	padding: 8px 20px !important;
+	background-color: #db7b00;
+	border-color: #db7b00;
+	color: white;
+	border-radius: 0 !important;
+}
+
+.home-lima .img-collapse {
+	padding: 0 40px;
+}
+
+.home-enam {
+	background: linear-gradient(to right, rgba(54, 54, 54, 0.571), rgba(54, 54, 54, 0.571)),  url('../img/WELDING_PROCESS/WELDINGPROCESS6.jpg');
+	background-size: cover;
+	height: 120%;
+	padding: 140px 0px;
+}
+
+.home-enam h1 {
+	color: white;
+	font-size: 50px;
+	font-weight: 600;
+	/* font-family: helveticaMedium; */
+}
+
+.home-enam .sec {
+	color: #db7b00;
+	font-size: 50px;
+	font-weight: 600;
+	/* font-family: helveticaMedium; */
+}
+
+.home-enam .p1  {
+	padding-top: 30px;
+	width: 60%;
+	color: white;
+}
+
+.home-enam .p2{
+	padding-top: 20px;
+	width: 60%;
+	color: #db7b00;
+}
+
+.home-enam .square {
+	background-color:rgba(0, 0, 0, 0.6);
+	padding: 20px 30px;
+	border-radius: 20px;
+}
+
+.home-enam .square p {
+	margin-top: 20px;
+	margin-bottom: 25px;
+}
+
+.home-enam .square input {
+	border-radius: 0;
+	font-size: 15px;
+	padding: 18px 20px;
+}
+
+.home-enam .square textarea {
+	border-radius: 0;
+	font-size: 15px;
+	padding: 10px 20px !important;
+	height: 160px !important;
+}
+
+.home-enam .square .btn {
+	margin-left: 80%;
+	background-color: #db7b00;
+	border-radius: 0;
+	padding: auto 20px;
+}
+
+footer {
+	font-size: 15px;
+	padding: 20px 30px;
+	background-color: black;
+	color: white;
+}
+
+.ft-2 {
+	text-align: right;
 }
 
 /* For responsive mobile */
@@ -98,5 +295,32 @@ body {
 		border: 1.5px solid white;
 		width: 30%;
 		margin: auto;
+	}
+	/* Gallery */
+	.gallery .items, .gallery-2 .items {
+		padding: 10px 15px ;
+		height: 260px;
+		max-width: 100% !important;
+		margin: 0px 6px;
+		background: url('../img/WELDING_PROCESS/WELDINGPROCESS7.jpg');
+		background-size: cover;
+		filter: sepia(50%) brightness(65%) saturate(99%) contrast(120%);
+		-webkit-filter: sepia(50%) brightness(65%) saturate(99%) contrast(120%);
+		-moz-filter: sepia(50%) brightness(65%) saturate(99%) contrast(120%);
+	}
+	footer, .ft-2 {
+		text-align: center;
+	}
+	.home-enam .p1  {
+		padding-top: 30px;
+		width: 100%;
+		color: white;
+	}
+	
+	.home-enam .p2{
+		padding-top: 20px;
+		width: 100%;
+		color: #db7b00;
+		margin-bottom: 50px;
 	}
 }
