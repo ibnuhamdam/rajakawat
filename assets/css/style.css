@@ -84,7 +84,7 @@ body {
 }
 
 .home-tiga {
-	background: linear-gradient(to right, rgba(255, 128, 25, 0.6), rgba(255, 128, 25,  0.6)),  url('../img/WELDING_PROCESS/WELDINGPROCESS6.jpg') fixed;
+	background: linear-gradient(to right, rgba(255, 128, 25, 0.659), rgba(255, 128, 25,  0.6)),  url('../img/WELDING_PROCESS/WELDINGPROCESS6.jpg') fixed;
 	background-size: cover;
 	padding: 50px 10px;
 }
@@ -334,4 +334,5 @@ footer {
 		color: #db7b00;
 		margin-bottom: 50px;
 	}
+	
 }

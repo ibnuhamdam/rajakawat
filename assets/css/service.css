@@ -35,7 +35,21 @@
 	margin: 4px 6px;
 	max-width: 100%;
 	font-family: 'helveticaMedium';
+	transition: padding 0.5s;
 }
+
+.vis {
+	transition: opacity 0.5s;
+	opacity: 0;
+	padding: 10px 15px;
+	font-size: 13px;
+}
+
+.muncul {
+	transition: opacity 0.9s;
+	opacity: 1;
+}
+
 .service-2 .items {
 	background: linear-gradient(to right, rgba(255, 128, 25, 0.231), rgba(255, 128, 25,  0.231)),  url('../img/WELDING_PROCESS/WELDINGPROCESS6.jpg');
 	background-size: cover;
@@ -109,3 +123,4 @@
 	color: white;
 	padding: 5px 10px;
 }
+

@@ -26,10 +26,14 @@
 				<div class="row">
 					<div class="col-md-4">
 						<div class="row service d-flex flex-column">
-							<div class="col-md-3 items text-white text-center">
+							<div class="col-md-3 items text-white text-center" onmouseover="deschover(this)" onmouseout="descnonhover(this)">
 								<h2>LOREM IPSUM</h2>
+								<p class="vis" id="vis">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum harum cumque eius explicabo inventore! Eius asperiores cum ratione.
+									<br>
+								<button class="btn btn-sm btn-primary">Show More</button>	
+								</p>
 							</div>
-							<div class="col-md-3 items text-white text-center">
+							<div class="col-md-3 items text-white text-center"> 
 								<h2>LOREM IPSUM</h2>
 							</div>
 							<div class="col-md-3 items text-white text-center">
@@ -71,6 +75,29 @@
 				</div>
 			</div>
 		</section>
+
+		<!-- <section>
+			<div class="container">
+				<div class="col-md-12">
+					<div class="card">
+						<div class="content">
+							<div class="front">
+							Front
+							</div>
+							<div class="back">
+							Back!
+							</div>
+							<div class="front">
+							Front
+							</div>
+							<div class="back">
+							Back!
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section> -->
 
 
     <!-- Optional JavaScript -->
