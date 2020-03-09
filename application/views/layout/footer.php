@@ -19,3 +19,14 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 <script src="<?php echo base_url('assets/js/');?>navbar.js"></script>
 <script src="<?php echo base_url('assets/js/');?>all.js"></script>
+<script src="<?php echo base_url('assets/js/');?>bootstrap.min.js"></script>
+<script src="<?php echo base_url('assets/js/');?>jquery-3.3.1.min.js"></script>
+<script src="<?php echo base_url('assets/js/');?>jquery.easing.1.3.js"></script>
+<?php 
+if ($this->uri->segment(2) === 'index'){
+	 echo "<script src=".base_url('assets/js/')."home.js></script>";
+}?>
+<?php 
+if ($this->uri->segment(2) === 'service'){
+	 echo "<script src=".base_url('assets/js/')."service.js></script>";
+}?>

@@ -80,11 +80,19 @@ body {
 }
 
 .home-dua p {
+	transform: translate(0, -100px);
 	margin-top: 40px;
+	opacity: 0;
+}
+
+.home-dua p.show {
+	opacity: 1;
+	transform : translate(0, 0);
+	transition: .9s;
 }
 
 .home-tiga {
-	background: linear-gradient(to right, rgba(255, 128, 25, 0.659), rgba(255, 128, 25,  0.6)),  url('../img/WELDING_PROCESS/WELDINGPROCESS6.jpg') fixed;
+	background: linear-gradient(to right, rgba(47, 47, 47, 0.659), rgba(47, 47, 47, 0.659)),  url('../img/WELDING_PROCESS/WELDINGPROCESS6.jpg') fixed;
 	background-size: cover;
 	padding: 50px 10px;
 }
@@ -124,8 +132,14 @@ body {
 	height: 260px;
 	max-width: 32% !important;
 	margin: 0px 6px;
+	opacity: 0;
 	background: linear-gradient(to right, rgba(153, 69, 0, 0.3), rgba(153, 69, 0, 0.3)),  url('../img/WELDING_PROCESS/WELDINGPROCESS6.jpg');
 	background-size: cover;
+}
+#empat .items.show {
+	opacity: 1;
+	transform : translate(0, 0);
+	transition: 1s;
 }
 .button-service {
 	margin-top: 20px;

@@ -34,12 +34,13 @@
 	max-height: 24% !important;
 	margin: 4px 6px;
 	max-width: 100%;
+	opacity: 0;
 	font-family: 'helveticaMedium';
 	transition: padding 0.5s;
 }
 
 .vis {
-	transition: opacity 0.5s;
+	transition: opacity 0.9s;
 	opacity: 0;
 	padding: 10px 15px;
 	font-size: 13px;
@@ -59,7 +60,9 @@
 	max-height: 24% !important;
 	margin: 4px 6px;
 	max-width: 100%;
+	opacity: 0;
 	font-family: 'helveticaMedium';
+	transition: padding 0.5s;
 }
 
 .service-2 .item {
@@ -71,7 +74,9 @@
 	max-height: 49% !important;
 	margin: 4px 6px;
 	max-width: 100%;
+	opacity: 0;
 	font-family: 'helveticaMedium';
+	transition: padding 0.5s;
 }
 .service-3 .items {
 	background: linear-gradient(to right, rgba(255, 128, 25, 0.231), rgba(255, 128, 25,  0.231)),  url('../img/WELDING_PROCESS/WELDINGPROCESS5.jpg');
@@ -82,7 +87,9 @@
 	max-height: 24% !important;
 	margin: 4px 6px;
 	max-width: 100%;
+	opacity: 0;
 	font-family: 'helveticaMedium';
+	transition: padding 0.5s;
 }
 
 .service-3 .item {
@@ -94,7 +101,9 @@
 	max-height: 49% !important;
 	margin: 4px 6px;
 	max-width: 100%;
+	opacity: 0;
 	font-family: 'helveticaMedium';
+	transition: padding 0.5s;
 }
 
 .service-3 .box {
@@ -122,5 +131,11 @@
 	border-radius: 0;
 	color: white;
 	padding: 5px 10px;
+}
+
+.service .items.show, .service-2 .items.show, .service-2 .item.show, .service-3 .items.show, .service-3 .item.show {
+	opacity: 1;
+	transform : translate(0, 0);
+	transition: .6s;
 }
 
