@@ -5,7 +5,7 @@
   	<?php $this->load->view('layout/navbar');?>
     
 		<!-- Section awal -->
-		<section class="service-awal" id="satu">
+		<section data-jarallax data-speed="0.2"  class="service-awal jarallax" id="satu">
 			<div class="container">
 				<div class="row">
 					<div class="col-md-6 col-12 text-white desc-awal">
@@ -30,28 +30,28 @@
 								<h2>LOREM IPSUM</h2>
 								<p class="vis" id="vis1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum harum cumque eius explicabo inventore! Eius asperiores cum ratione.
 									<br>
-								<button class="btn btn-sm btn-primary">Show More</button>	
+								<a href="<?php echo site_url('Home/detail/1');?>"><button class="btn btn-sm btn-primary">Show More</button></a>	
 								</p>
 							</div>
 							<div class="col-md-3 items text-white text-center " onmouseover="deschover(this,2)" onmouseout="descnonhover(this,2)"> 
 								<h2>LOREM IPSUM</h2>
 								<p class="vis" id="vis2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum harum cumque eius explicabo inventore! Eius asperiores cum ratione.
 									<br>
-								<button class="btn btn-sm btn-primary">Show More</button>	
+									<a href="<?php echo site_url('Home/detail/2');?>"><button class="btn btn-sm btn-primary">Show More</button></a>		
 								</p>
 							</div>
 							<div class="col-md-3 items text-white text-center" onmouseover="deschover(this,3)" onmouseout="descnonhover(this,3)">
 								<h2>LOREM IPSUM</h2>
 								<p class="vis" id="vis3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum harum cumque eius explicabo inventore! Eius asperiores cum ratione.
 									<br>
-								<button class="btn btn-sm btn-primary">Show More</button>	
+									<a href="<?php echo site_url('Home/detail/3');?>"><button class="btn btn-sm btn-primary">Show More</button></a>		
 								</p>
 							</div>
 							<div class="col-md-3 items text-white text-center" onmouseover="deschover(this,4)" onmouseout="descnonhover(this,4)">
 								<h2>LOREM IPSUM</h2>
 								<p class="vis" id="vis4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum harum cumque eius explicabo inventore! Eius asperiores cum ratione.
 									<br>
-								<button class="btn btn-sm btn-primary">Show More</button>	
+									<a href="<?php echo site_url('Home/detail/4');?>"><button class="btn btn-sm btn-primary">Show More</button></a>	
 								</p>
 							</div>
 						</div>
@@ -62,21 +62,21 @@
 								<h2>LOREM IPSUM</h2>
 								<p class="vis" id="vis5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum harum cumque eius explicabo inventore! Eius asperiores cum ratione.
 									<br>
-								<button class="btn btn-sm btn-primary">Show More</button>	
+									<a href="<?php echo site_url('Home/detail/5');?>"><button class="btn btn-sm btn-primary">Show More</button></a>		
 								</p>
 							</div>
 							<div class="col-md-3 items text-white text-center" onmouseover="deschover(this,6)" onmouseout="descnonhover(this,6)">
 								<h2>LOREM IPSUM</h2>
 								<p class="vis" id="vis6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum harum cumque eius explicabo inventore! Eius asperiores cum ratione.
 									<br>
-								<button class="btn btn-sm btn-primary">Show More</button>	
+								<a href="<?php echo site_url('Home/detail/6');?>"><button class="btn btn-sm btn-primary">Show More</button></a>	
 								</p>
 							</div>
 							<div class="col-md-3 items text-white text-center" onmouseover="deschover(this,7)" onmouseout="descnonhover(this,7)">
 								<h2>LOREM IPSUM</h2>
 								<p class="vis" id="vis7">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum harum cumque eius explicabo inventore! Eius asperiores cum ratione.
 									<br>
-								<button class="btn btn-sm btn-primary">Show More</button>	
+								<a href="<?php echo site_url('Home/detail/7');?>"><button class="btn btn-sm btn-primary">Show More</button></a>	
 								</p>
 							</div>
 						</div>
@@ -87,7 +87,7 @@
 								<h2>LOREM IPSUM</h2>
 								<p class="vis" id="vis8">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum harum cumque eius explicabo inventore! Eius asperiores cum ratione.
 									<br>
-								<button class="btn btn-sm btn-primary">Show More</button>	
+								<a href="<?php echo site_url('Home/detail/8');?>"><button class="btn btn-sm btn-primary">Show More</button></a>	
 								</p>
 							</div>
 							<div class="col-md-3 box text-black text-justify">
@@ -99,7 +99,7 @@
 								<h2>LOREM IPSUM</h2>
 								<p class="vis" id="vis9">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum harum cumque eius explicabo inventore! Eius asperiores cum ratione.
 									<br>
-								<button class="btn btn-sm btn-primary">Show More</button>	
+								<a href="<?php echo site_url('Home/detail/9');?>"><button class="btn btn-sm btn-primary">Show More</button></a>	
 								</p>
 							</div>
 						</div>

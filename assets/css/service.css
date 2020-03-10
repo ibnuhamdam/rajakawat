@@ -9,10 +9,9 @@
 	src: url('../font/HelveticaNeueMedium.ttf');
 } 
 .service-awal {
-	background: linear-gradient(to right, rgba(30, 30, 30, 0.605), rgba(30, 30, 30, 0.605)),  url('../img/BUILDING/BUILDING.jpg');
+	background: url('../img/BUILDING/BUILDING.jpg');
 	background-size: cover;
-	background-size: cover;
-	/* filter: sepia(70%) brightness(55%) saturate(99%) contrast(150%); */
+	/* background-origin: sepia(70%) brightness(55%) saturate(99%) contrast(150%); */
 	height: 665px;
 }
 
@@ -139,3 +138,49 @@
 	transition: .6s;
 }
 
+.service-detail .container{
+	background-color: white;
+	padding: 80px 80px;
+}
+
+.service-detail .heading, .portofolio .heading {
+	margin-bottom: 50px;
+}
+
+
+.detail-service h5{
+	color: #db7b00;
+}
+
+.portofolio .container {
+	padding: 80px 80px;
+}
+
+.portofolio {
+	background-color: rgb(236, 236, 236);
+}
+
+.porto .col-md-4 {
+	padding-right:0px !important;
+	margin-top: 15px;
+}
+
+.porto .card {
+	border: 0px !important;
+	border-radius: 0px !important;
+	font-size: 15px !important;
+}
+
+.card-body {
+	padding: 1.5rem 2.5rem !important;
+}
+
+@media (max-width: 960px) {
+	.portofolio .container {
+		padding: 80px 40px;
+	}
+
+	.service-detail .container{
+		padding: 80px 40px;
+	}
+}

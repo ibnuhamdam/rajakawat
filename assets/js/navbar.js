@@ -7,8 +7,6 @@ $(window).scroll(function() {
     } else {
         $('.custom-navbar').removeClass('opaque');
     }
-
-    console.log($(this).scrollTop());
   
 	// Parallax
 	// $('.service-awal h3').css({

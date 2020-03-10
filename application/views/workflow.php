@@ -5,7 +5,7 @@
   	<?php $this->load->view('layout/navbar');?>
     
 		<!-- Section awal -->
-		<section class="work-awal" id="satu">
+		<section class="work-awal jarallax" id="satu">
 			<div class="container">
 				<div class="row">
 					<div class="col-md-6">

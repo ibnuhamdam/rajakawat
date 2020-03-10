@@ -1,7 +1,9 @@
 .work-awal{
 	background: url('../img/WELDING_PROCESS/WELDINGPROCESS3.jpg');
 	background-size: cover;
+	background-position: inherit;
 	height: 665px;
+	object-fit: cover;
 }
 .hr-work-awal {
 	border: 1.5px solid white;
@@ -68,6 +70,21 @@
 	background-color: white;
 }
 
+@media (max-width: 960px) {
+	iframe {
+		width: 300px !important;
+	}
+
+	.comment {
+		margin-top: 30px;
+	}
+
+	.col-md-5 {
+		padding-left: 5px !important;
+	}
+}
+
+
 /* FAQ */
 .faq-satu {
 	padding: 120px 10px;
@@ -85,3 +102,4 @@
 .faq-satu .pertanyaan p {
 	font-size: 15px;
 }
+

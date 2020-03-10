@@ -5,7 +5,7 @@
   	<?php $this->load->view('layout/navbar');?>
     
 		<!-- Section awal -->
-		<section class="home-awal" id="satu">
+		<section data-jarallax data-speed="0.4" class="home-awal jarallax" id="satu">
 			<div class="container">
 				<div class="row">
 					<div class="col-md-6 col-12 text-white desc-awal">
@@ -166,7 +166,7 @@
 			</div>
 		</section>
 
-		<section class="home-enam" id="enam">
+		<section class="home-enam jarallax" id="enam">
 			<div class="container">
 				<div class="row">
 					<div class="col-md-8 col-12">

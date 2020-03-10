@@ -326,7 +326,7 @@ footer {
 		padding: 10px 15px ;
 		height: 260px;
 		max-width: 100% !important;
-		margin: 0px 6px;
+		margin: 3px 6px;
 		background: url('../img/WELDING_PROCESS/WELDINGPROCESS7.jpg');
 		background-size: cover;
 		filter: sepia(50%) brightness(65%) saturate(99%) contrast(120%);

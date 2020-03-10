@@ -18,3 +18,7 @@ function descnonhover(x,p) {
 	}
 	document.getElementById("vis"+p).style.opacity = "0";
 }
+jarallax(document.querySelectorAll('.jarallax'), {
+	speed: 0.4,
+		
+});
